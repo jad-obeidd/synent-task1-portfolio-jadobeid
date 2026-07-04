@@ -46,7 +46,11 @@ git clone https://github.com/jad-obeidd/synent-task1-portfolio-jadobeid.git
 
 ## 📸 Preview
 
-_Add screenshots here after deployment._
+![Portfolio Screenshot](screenshots/home.png)
+
+## 🌐 Live Demo
+
+https://jad-obeidd.github.io/synent-task1-portfolio-jadobeid/
 
 ## 👨‍💻 Author
 
