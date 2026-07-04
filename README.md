@@ -58,3 +58,7 @@ _Add screenshots here after deployment._
 ## 📄 License
 
 This project was developed for educational and internship purposes.
+
+## 🌐 Live Demo
+
+https://jad-obeidd.github.io/synent-task1-portfolio-jadobeid/
