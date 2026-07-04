@@ -4,6 +4,7 @@ const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
 const topBtn = document.getElementById("topBtn");
 const revealElements = document.querySelectorAll(".reveal");
+const contactForm = document.querySelector(".contact-form");
 
 const words = [
   "modern websites.",
@@ -85,6 +86,16 @@ topBtn.addEventListener("click", () => {
     top: 0,
     behavior: "smooth",
   });
+});
+
+contactForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  alert(
+    "Thank you! This contact form is a frontend demo. Please contact me by email.",
+  );
+
+  contactForm.reset();
 });
 
 loadTheme();

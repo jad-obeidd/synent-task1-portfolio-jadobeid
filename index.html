@@ -8,14 +8,16 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="#" class="logo">Jad<span>.</span></a>
+      <a href="#home" class="logo">Jad<span>.</span></a>
 
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
         <a href="#contact">Contact</a>
       </div>
 
@@ -25,12 +27,14 @@
 
     <section id="home" class="hero section">
       <div class="hero-content">
-        <p class="tag">Computer Science Student</p>
+        <p class="tag">Computer Science Student & Software Developer</p>
+
         <h1>Hi, I'm <span>Jad Obeid</span></h1>
         <h2>I build <span id="typingText"></span></h2>
+
         <p class="hero-text">
-          Software Developer with experience in full-stack web development, AI
-          tools, database systems, and clean digital solutions.
+          A dedicated Computer Science student with experience in full-stack web
+          development, AI tools, database systems, and clean digital solutions.
         </p>
 
         <div class="hero-buttons">
@@ -39,19 +43,34 @@
           >
           <a href="#contact" class="btn secondary">Contact Me</a>
         </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Jad-Ob" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/jad-obeid-748a642a0" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="mailto:jad.4obeid@gmail.com">Email</a>
+        </div>
       </div>
     </section>
 
     <section id="about" class="section reveal">
       <h2 class="section-title">About Me</h2>
-      <p class="about-text">
-        I am a dedicated Computer Science student with experience in full-stack
-        web development, AI tools, and database systems. Through internships and
-        projects, I developed strong technical, analytical, and problem-solving
-        skills. I enjoy creating reliable, scalable digital solutions and
-        contributing to teams that value learning, innovation, and clean
-        engineering.
-      </p>
+
+      <div class="about-card">
+        <p>
+          I am a dedicated Computer Science student with experience in
+          full-stack web development, AI tools, and database systems. Through
+          multiple internships and projects, I developed strong technical,
+          analytical, and problem-solving skills.
+        </p>
+
+        <p>
+          I am passionate about creating reliable, scalable digital solutions
+          and contributing to teams that value learning, innovation, clean
+          engineering, and professional growth.
+        </p>
+      </div>
     </section>
 
     <section id="skills" class="section reveal">
@@ -61,19 +80,41 @@
         <div class="skill-card">HTML</div>
         <div class="skill-card">CSS</div>
         <div class="skill-card">JavaScript</div>
+        <div class="skill-card">TypeScript</div>
         <div class="skill-card">PHP</div>
         <div class="skill-card">Laravel</div>
         <div class="skill-card">React</div>
         <div class="skill-card">Next.js</div>
+        <div class="skill-card">Vue.js</div>
         <div class="skill-card">Node.js</div>
         <div class="skill-card">Express.js</div>
         <div class="skill-card">MySQL</div>
         <div class="skill-card">MongoDB</div>
+        <div class="skill-card">PostgreSQL</div>
         <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">Docker</div>
         <div class="skill-card">Python</div>
         <div class="skill-card">Java</div>
         <div class="skill-card">Flutter</div>
-        <div class="skill-card">Docker</div>
+        <div class="skill-card">OpenAI API</div>
+      </div>
+    </section>
+
+    <section id="education" class="section reveal">
+      <h2 class="section-title">Education</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Master of Science in Computer Science</h3>
+          <p>Lebanese International University – Tripoli, Lebanon</p>
+          <span>2025 – Present</span>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>Lebanese International University – Tripoli, Lebanon</p>
+          <span>2022 – 2025</span>
+        </div>
       </div>
     </section>
 
@@ -84,28 +125,28 @@
         <div class="timeline-item">
           <h3>WordPress Developer Intern</h3>
           <p>InternGrub | Apr 2025 – Jun 2025</p>
-          <span
-            >Built and customized responsive WordPress websites and optimized
-            performance.</span
-          >
+          <span>
+            Built and customized WordPress websites, designed responsive
+            layouts, integrated plugins, and optimized website performance.
+          </span>
         </div>
 
         <div class="timeline-item">
           <h3>Junior Database Engineer Intern</h3>
           <p>M365Connect | Feb 2025 – Mar 2025</p>
-          <span
-            >Assisted in MySQL database design, SQL queries, optimization, and
-            data migration.</span
-          >
+          <span>
+            Assisted in MySQL database design, wrote SQL queries, and
+            participated in optimization and data migration tasks.
+          </span>
         </div>
 
         <div class="timeline-item">
           <h3>Web Developer Intern</h3>
           <p>CodiTech Solutions | Feb 2024 – Aug 2024</p>
-          <span
-            >Developed responsive web pages and backend features using PHP and
-            MySQL.</span
-          >
+          <span>
+            Developed responsive web pages using HTML, CSS, JavaScript, and
+            Bootstrap, and worked with PHP and MySQL backend features.
+          </span>
         </div>
       </div>
     </section>
@@ -117,79 +158,134 @@
         <div class="project-card">
           <h3>Smart Task Manager</h3>
           <p>
-            Advanced to-do app with search, filters, priorities, progress bar,
-            dark mode, and localStorage.
+            Advanced to-do app with search, filters, priorities, edit/delete
+            features, progress bar, dark mode, and localStorage.
           </p>
           <div class="tech">HTML • CSS • JavaScript</div>
+          <div class="project-buttons">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
         </div>
 
         <div class="project-card">
           <h3>VoteVision</h3>
           <p>
-            Secure online voting system with polls, candidates, live results,
-            dashboards, and vote protection.
+            Secure online voting system with poll creation, candidate elections,
+            live results, expiration timers, dashboards, and vote protection.
           </p>
-          <div class="tech">PHP • MySQL • Bootstrap • Chart.js</div>
+          <div class="tech">PHP • MySQL • Bootstrap • Chart.js • AJAX</div>
+          <div class="project-buttons">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
         </div>
 
         <div class="project-card">
           <h3>SmartCart</h3>
           <p>
-            AI shopping assistant with smart lists, personalized
-            recommendations, authentication, and wishlist.
+            AI-based shopping assistant with smart lists, product
+            recommendations, authentication, wishlist management, and responsive
+            UI.
           </p>
-          <div class="tech">React • Node.js • MongoDB • OpenAI API</div>
+          <div class="tech">React • Node.js • MongoDB • OpenAI API • JWT</div>
+          <div class="project-buttons">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
         </div>
 
         <div class="project-card">
           <h3>AI Sentiment Analyzer</h3>
           <p>
-            Web app that analyzes text sentiment and displays positive,
-            negative, or neutral results.
+            Web app that analyzes user text using NLP and displays whether the
+            sentiment is positive, negative, or neutral.
           </p>
           <div class="tech">Svelte • Flask • SQLite • DistilBERT</div>
+          <div class="project-buttons">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>Restaurant Menu App</h3>
+          <h3>Restaurant Menu Web App</h3>
           <p>
-            Web-based restaurant menu where users can browse dishes, view
-            prices, and filter by category.
+            Restaurant menu app that allows users to browse dishes, view prices,
+            and filter meals by category.
           </p>
           <div class="tech">HTML • CSS • JavaScript • Node.js • MySQL</div>
+          <div class="project-buttons">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
         </div>
 
         <div class="project-card">
           <h3>E-Learning Platform</h3>
           <p>
-            Learning platform concept with course browsing, lessons, progress
-            tracking, and user dashboard.
+            Course platform concept with course browsing, lesson structure, user
+            dashboard, and learning progress tracking.
           </p>
           <div class="tech">React • Node.js • MySQL</div>
+          <div class="project-buttons">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section reveal">
-      <h2 class="section-title">Contact</h2>
+    <section id="certificates" class="section reveal">
+      <h2 class="section-title">Certifications</h2>
 
-      <div class="contact-box">
-        <p>
-          Email: <a href="mailto:jad.4obeid@gmail.com">jad.4obeid@gmail.com</a>
-        </p>
-        <p>Phone: <a href="tel:+96171643826">+961 71 643 826</a></p>
-        <p>
-          GitHub:
-          <a href="https://github.com/Jad-Ob" target="_blank"
-            >github.com/Jad-Ob</a
-          >
-        </p>
-        <p>
-          LinkedIn:
-          <a href="https://linkedin.com/in/jad-obeid-748a642a0" target="_blank"
-            >linkedin.com/in/jad-obeid</a
-          >
-        </p>
+      <div class="cert-grid">
+        <div class="cert-card">Elements of AI for Business</div>
+        <div class="cert-card">CCNA1 - Cisco Academy</div>
+        <div class="cert-card">CCNA2 - Cisco Academy</div>
+        <div class="cert-card">Emergency Medical Technician Assistant</div>
+        <div class="cert-card">Assistant Mountain Rescuer</div>
+        <div class="cert-card">Civilian Lifeguard Assistant</div>
+        <div class="cert-card">Firefighter Assistant</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:jad.4obeid@gmail.com">jad.4obeid@gmail.com</a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+96171643826">+961 71 643 826</a>
+          </p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/Jad-Ob" target="_blank"
+              >github.com/Jad-Ob</a
+            >
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://linkedin.com/in/jad-obeid-748a642a0"
+              target="_blank"
+              >linkedin.com/in/jad-obeid</a
+            >
+          </p>
+          <p><strong>Languages:</strong> Arabic, English, French</p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
       </div>
     </section>
 
